@@ -1,0 +1,12 @@
+You have been hired by Susan as an IT specialist to help her successful e-commerce store. Susan wants to keep all the website products physically available in her new warehouse
+building that she is about to rent. She has a problem though – does not know how big a warehouse is needed for her products, having in mind that no more than 5 items of each
+product should be kept in storage in the new warehouse.
+
+She has given you a MySQL database from her store, and you have to help her by implementing a script that calculates the minimum dimensions of the warehouse that she should rent.
+
+Tip 1: The warehouse is an open space rectangular cuboid room with 3.6m height, so your script should calculate the minimum width and length (in meters) of the needed
+warehouse room.
+Tip 2: All the data you need is in the `products` table within the provided database.
+Tip 3: The LWH (Length, Width, Height) dimensions of the products in the MySQL `products` table are in millimeters.
+Tip 4: For the sake of simplicity, you can consider a perfect allocation of products without taking into consideration any space for walking and shelves.
+Tip 5: It is recommended to put your code in a self-explanatory class and methods. No requirement for frameworks, toolkits, comments.

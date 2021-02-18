@@ -1,0 +1,18 @@
+Files:
+
+database.json   -> json file with the needed information for the calculation.
+
+dataBase.php    -> The connection with the DB. If something went wrong, the file will return the information from the database.json.
+
+products.sql    -> sql file with only needed information for the task.
+
+test1.php       -> The finished calculation file for the needed size of the warehouse. I math it based on math point in cubic meters taking into account that
+                it will have to fit the maximum number of products in it (five of each product).
+
+test2.php       -> Second UNFINISHED calculation file for the needed size of the warehouse. I try to store the products one by one, setting them in a perfect
+                position so that they take up the least space relative to the given height. The reason for not continuing with this calculation is a mathematical
+                difficulty and uncertainty that the end result will not be close to the required correct one. However, I decided to leave the file in the project.
+
+taks.txt        -> File with the task.
+
+The files are written in php 7. There may be an error if you try to run on a lower version! 
